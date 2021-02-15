@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
-}
+.fx
+{display: -webkit-flex;display: -ms-flexbox;display: flex;flex: 1;}
+.fxwp
+{flex-wrap: wrap;}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.fxdc
+{-webkit-flex-direction: column;-ms-flex-direction: column;flex-direction: column;}
+.fxdr
+{-webkit-flex-direction: row;-ms-flex-direction: row;flex-direction: row;}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.fxjcc
+{-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;}
+.fxjcfs
+{-webkit-justify-content: flex-start;-ms-flex-pack: flex-start;justify-content: flex-start;}
+.fxjcfe
+{  justify-content: flex-end;}
+.fxjcsb
+{  justify-content: space-between;}
+.fxjcsa
+{  justify-content: space-around;}
+.fxjcse
+{  justify-content: space-evenly;}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+.fxaic
+{-webkit-align-items: center;-ms-flex-align: center;align-items: center;}
+.fxaifs
+{-webkit-align-items: flex-start;-ms-flex-align: flex-start;align-items: flex-start;}
+.fxaife
+{-webkit-align-items: flex-end;-ms-flex-align: flex-end;align-items: flex-end;}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+.page
+{min-height: 100vh;color:#fff}
+.rest
+{background-color:teal;}
+.axios
+{background-color:mediumslateblue;}
+.parent
+{background-color: dodgerblue;}
+.notfound
+{background-color:grey;}
+.navigation, .foods, .child, .notfound h2
+{text-align: center;}
+.navigation ul
+{padding: 0;}
+.navigation ul li
+{list-style: none;}
+.foods
+{padding: 25px 0;color:#fff}
+.child button
+{padding: 10px;border-radius: 5px;color:#fff;background-color: forestgreen;}  
+.quotes
+{}
