@@ -1,11 +1,8 @@
 import React from "react";
-import { Child, Navigation } from '.';
+import { Navigation } from '.';
 
 
 export default function NotFound() {
-function clickAlert(){
-    alert("I am working")
-}
   return (
     <div className="page notfound fx fxjcc fxdc">
       <Navigation/>
